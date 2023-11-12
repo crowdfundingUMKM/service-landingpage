@@ -92,7 +92,7 @@ export default function Footer() {
                 <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
                     <ul className="list-unstyled list-inline mb-0 text-lg-center">
                     <li className="list-inline-item me-4">
-                        <Link className="text-black" href="https://github.com/ahhzaky">
+                        <Link className="text-black" href="https://github.com/ahhzaky" target="_blank">
                         @Design By <span>Ahmad Zaky</span>
                         </Link>
                     </li>
@@ -105,6 +105,7 @@ export default function Footer() {
                         title="Explore My Discord Crowdfunding"
                         href={process.env.NEXT_PUBLIC_DISCORD_URL}
                         className="text-black"
+                        target="_blank"
                         >
                         <i className="fab fa-discord" />
                         </Link>
@@ -114,6 +115,7 @@ export default function Footer() {
                         title="Explorer My Github Docs"
                         className="text-black"
                         href="https://github.com/crowdfundingUMKM"
+                        target="_blank"
                         >
                         <i className="fab fa-github" />
                         </Link>
