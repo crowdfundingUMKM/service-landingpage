@@ -26,7 +26,7 @@ export default function Home() {
                 <Link
                   type="button"
                   className="btn btn-primary"
-                  href={process.env.NEXT_PUBLIC_LOGIN_NEXT_INVESTOR}
+                  href={process.env.NEXT_PUBLIC_LOGIN_INVESTOR}
 
                 >
                   Mulai Daftar Sekarang{" "}
