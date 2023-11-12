@@ -61,23 +61,58 @@
 //   //     '<button type="button" class="nextArrow"><i class="fas fa-angle-right"></i></button>',
 //   // });
 
-//   // videoPopupInit
-//   function videoPopupInit() {
-//     var $videoSrc;
-//     $(".video-play-btn").click(function () {
-//       $videoSrc = $(this).data("src");
-//     });
-//     $("#videoModal").on("shown.bs.modal", function (e) {
-//       $("#showVideo").attr(
-//         "src",
-//         $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
-//       );
-//     });
-//     $("#videoModal").on("hide.bs.modal", function (e) {
-//       $("#showVideo").attr("src", $videoSrc);
-//     });
-//   }
-//   videoPopupInit();
+  // videoPopupInit
+  // function videoPopupInit() {
+  //   var $videoSrc;
+  //   $(".video-play-btn").click(function () {
+  //     $videoSrc = $(this).data("src");
+  //   });
+  //   $("#videoModal").on("shown.bs.modal", function (e) {
+  //     $("#showVideo").attr(
+  //       "src",
+  //       $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+  //     );
+  //   });
+  //   $("#videoModal").on("hide.bs.modal", function (e) {
+  //     $("#showVideo").attr("src", $videoSrc);
+  //   });
+  // }
+  // videoPopupInit();
+
+  function videoPopupInit() {
+    // Mendapatkan semua tombol yang akan memicu video popup
+    const videoPlayButtons = document.querySelectorAll('.video-play-btn');
+
+    // Event listener untuk setiap tombol
+    videoPlayButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const videoSrc = this.getAttribute('data-src'); // Mengambil URL video dari data-src attribute
+            // Ketika modal terbuka, ganti src dari iframe
+            const videoModalShowHandler = function () {
+                const showVideo = document.getElementById('showVideo');
+                showVideo.src = videoSrc + "?autoplay=1&modestbranding=1&showinfo=0";
+                // Hapus event listener setelah dijalankan untuk menghindari duplikasi
+                videoModal.removeEventListener('shown.bs.modal', videoModalShowHandler);
+            };
+            // Event listener untuk modal saat ditampilkan
+            const videoModal = document.getElementById('videoModal');
+            videoModal.addEventListener('shown.bs.modal', videoModalShowHandler);
+
+            // Event listener untuk modal saat disembunyikan
+            const videoModalHideHandler = function () {
+                const showVideo = document.getElementById('showVideo');
+                showVideo.src = ""; // Mengosongkan src untuk menghentikan video
+                // Hapus event listener setelah dijalankan untuk menghindari duplikasi
+                videoModal.removeEventListener('hide.bs.modal', videoModalHideHandler);
+            };
+            videoModal.addEventListener('hide.bs.modal', videoModalHideHandler);
+        });
+    });
+}
+
+// Inisialisasi fungsi saat dokumen siap.
+document.addEventListener('DOMContentLoaded', videoPopupInit);
+
 
 //   // table of content
 //   new ScrollMenu("#TableOfContents a", {
