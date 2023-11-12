@@ -8,7 +8,7 @@ function Custom500() {
     <div style={{ padding: '50px', textAlign: 'center' }}>
       <h1>500 - Server-side error occurred</h1>
       
-      <p>Oops! Something went wrong on our server. Don't worry, we're on it!</p>
+      <p>Oops! Something went wrong on our server. Don&apos;t worry, we&rsquo;re on it!</p>
       <Link href="/">
         <a>Back to Home</a>
       </Link>

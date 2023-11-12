@@ -22,7 +22,7 @@ export default function Faq() {
                         <div className="accordion accordion-border-bottom" id="accordionFAQ">
                         <div className="accordion-item">
                             <h2
-                            className="accordion-header accordion-button h5 border-0 active"
+                            className="accordion-header accordion-button h5 border-0 "
                             id="heading-ebd23e34fd2ed58299b32c03c521feb0b02f19d9"
                             type="button"
                             data-bs-toggle="collapse"
