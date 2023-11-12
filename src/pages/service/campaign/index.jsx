@@ -1,4 +1,4 @@
-import ServiceCampaignLayout from 'src/pages/service/campaign/layout';
+import ServiceCampaignLayout from '@/pages/service/campaign/layout';
 import Link from 'next/link';
 
 export default function ServiceCampaign() {
