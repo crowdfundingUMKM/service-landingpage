@@ -2,6 +2,7 @@
 import RootLayout from '@/pages/RootLayout';
 import Script from 'next/script';
 import { useState, useEffect } from 'react';
+import "@/styles/style.css";
 
 export default function App({ Component, pageProps }) {
 
