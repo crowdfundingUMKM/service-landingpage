@@ -1,10 +1,10 @@
 import Head from 'next/head'
 
-export default function ListCampaignLayout({ children }) {
+export default function CampaignDetailsLayout({ children }) {
     return (
       <>
         <Head>
-            <title>List UMKM - Crowdfunding UMKM</title>
+            <title>Donasi Sekarang, Crowdfunding UMKM</title>
         </Head>
         {children}
       </>
