@@ -104,11 +104,11 @@ export default function Header() {
                     </li>
                     </ul>
                     {/* account btn */}{" "}
-                    <Link href={process.env.NEXT_PUBLIC_LOGIN_NEXT_INVESTOR} className="btn btn-outline-primary">
+                    <Link href={process.env.NEXT_PUBLIC_LOGIN_INVESTOR} className="btn btn-outline-primary">
                     Log In
                     </Link>
                     {/* account btn */}{" "}
-                    <Link href={process.env.NEXT_PUBLIC_REGISTER_NEXT_INVESTOR} className="btn btn-primary ms-2 ms-lg-3">
+                    <Link href={process.env.NEXT_PUBLIC_REGISTER_INVESTOR} className="btn btn-primary ms-2 ms-lg-3">
                     Sign Up
                     </Link>
                 </div>

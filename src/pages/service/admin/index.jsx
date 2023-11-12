@@ -291,12 +291,12 @@ export default function ServiceAdmin() {
                         <h3 id="gabung-sekarang" />
                         <div className="row">
                             <div className="col-md-6 d-flex justify-content-end">
-                            <Link className="btn btn-primary mt-4 mr-4" href={process.env.NEXT_PUBLIC_REGISTER_NEXT_ADMIN} target="_blank">
+                            <Link className="btn btn-primary mt-4 mr-4" href={process.env.NEXT_PUBLIC_REGISTER_ADMIN} target="_blank">
                                 Daftar Sekarang
                             </Link>
                             </div>
                             <div className="col-md-6 d-flex justify-content-start">
-                            <Link className="btn btn-primary mt-4 ml-4" href={process.env.NEXT_PUBLIC_LOGIN_NEXT_ADMIN} target="_blank">
+                            <Link className="btn btn-primary mt-4 ml-4" href={process.env.NEXT_PUBLIC_LOGIN_ADMIN} target="_blank">
                                 Login
                             </Link>
                             </div>
