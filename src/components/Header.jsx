@@ -58,7 +58,7 @@ export default function Header() {
                         UMKM
                         </Link>
                     </li>
-                    <li className={`nav-item ${pathname === '/cantact-admin' ? 'active' : ''}`}>
+                    <li className={`nav-item ${pathname === '/contact-admin' ? 'active' : ''}`}>
                         <Link className="nav-link" href="/contact-admin">
                         Kontak Admin
                         </Link>

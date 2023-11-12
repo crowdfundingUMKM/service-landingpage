@@ -17,10 +17,10 @@ export default function About() {
                             style={{ fontWeight: 500 }}
                         >
                             <li className="list-inline-item">
-                            <a href="index.html">Home</a>
+                            <Link href="/">Home</Link>
                             </li>
                             <li className="list-inline-item">
-                            / &nbsp; <a href="about.html">Tentang</a>
+                            / &nbsp; <a href="">Tentang</a>
                             </li>
                         </ul>
                         </div>
