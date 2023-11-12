@@ -2,6 +2,8 @@
 import HomeLayout from "@/pages/HomeLayout";
 import Link from 'next/link'
 import Image from 'next/image'  
+
+
 export default function Home() {
   return (
     <main>
@@ -27,7 +29,7 @@ export default function Home() {
                   type="button"
                   className="btn btn-primary"
                   href={process.env.NEXT_PUBLIC_LOGIN_INVESTOR}
-
+                  target="_blank"
                 >
                   Mulai Daftar Sekarang{" "}
                   <span
