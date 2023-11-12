@@ -296,9 +296,9 @@ export default function ServiceAdmin() {
                             </Link>
                             </div>
                             <div className="col-md-6 d-flex justify-content-start">
-                            <a className="btn btn-primary mt-4 ml-4" href={process.env.NEXT_PUBLIC_LOGIN_NEXT_ADMIN} target="_blank">
+                            <Link className="btn btn-primary mt-4 ml-4" href={process.env.NEXT_PUBLIC_LOGIN_NEXT_ADMIN} target="_blank">
                                 Login
-                            </a>
+                            </Link>
                             </div>
                         </div>
                         {/* end gabung sekarang */}
