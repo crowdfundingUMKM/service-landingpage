@@ -16,13 +16,13 @@ export default function ServiceInvestor() {
                             style={{ fontWeight: 500 }}
                         >
                             <li className="list-inline-item">
-                            <a href="index.html">Home</a>
+                            <Link href="/">Home</Link>
                             </li>
                             <li className="list-inline-item">
-                            / &nbsp; <a href="services.html">Services</a>
+                            / &nbsp; <Link href="/service">Services</Link>
                             </li>
                             <li className="list-inline-item">
-                            / &nbsp; <a href="midtrans-terms.html">Investor</a>
+                            / &nbsp; <a href="">Investor</a>
                             </li>
                         </ul>
                         </div>
