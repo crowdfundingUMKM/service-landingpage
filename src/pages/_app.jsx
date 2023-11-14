@@ -1,4 +1,3 @@
-// import '@/styles/globals.css'
 import RootLayout from '@/pages/RootLayout';
 import Script from 'next/script';
 import { useState, useEffect } from 'react';

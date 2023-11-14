@@ -10178,3 +10178,29 @@ textarea.form-control {
     text-overflow: ellipsis; /* menampilkan tanda elipsis (...) */
     width: 100%; /* lebar teks yang ditampilkan */
 }
+
+/* Scroll bar */
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #85e6a2;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  border: 2px solid #d4ecf7;
+}
+/* End Scroll bar */

@@ -16,7 +16,7 @@ class MyDocument extends Document {
         <link rel="preload" href="/assets/images/logoUmkm.svg" type="image/x-icon" as="image"/>
         
         
-        <link rel="stylesheet" href="/assets/css/style.css"/>
+        {/* <link rel="stylesheet" href="/assets/css/style.css"/> */}
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"/>
