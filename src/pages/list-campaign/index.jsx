@@ -2,24 +2,12 @@ import ListCampaignLayout from '@/pages/list-campaign/layout';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import SliderLayout from '@/components/SliderLayout.jsx'
+
 
 
 export default function ListCampaign() {
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4500,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
-      };
 
       
     return (
@@ -137,7 +125,7 @@ export default function ListCampaign() {
                             <div className="article col-md-6" data-aos="fade">
                                 <article className="blog-post ">
                                     <div className="post-slider slider-sm rounded">
-                                    <Slider {...settings}>
+                                    <SliderLayout>
                                         <Image
                                         loading="lazy"
                                         decoding="async"
@@ -165,7 +153,7 @@ export default function ListCampaign() {
                                         height={200}
                                         width={400}
                                         />
-                                    </Slider>
+                                    </SliderLayout>
                                     </div>
                                     <div className="pt-4">
                                         <p className="mb-3">15 Mar, 2020</p>
@@ -213,7 +201,7 @@ export default function ListCampaign() {
                             <div className="article  col-md-6" data-aos="fade">
                                 <article className="blog-post ">
                                 <div className="post-slider slider-sm rounded">
-                                    <Slider {...settings}>
+                                    <SliderLayout>
                                         <Image
                                         loading="lazy"
                                         decoding="async"
@@ -241,7 +229,7 @@ export default function ListCampaign() {
                                         height={200}
                                         width={400}
                                         />
-                                    </Slider>
+                                    </SliderLayout>
                                     
                                 </div>
                                 <div className="pt-4">
@@ -287,7 +275,7 @@ export default function ListCampaign() {
                             <div className="article  col-md-6" data-aos="fade">
                                 <article className="blog-post ">
                                 <div className="post-slider slider-sm rounded">
-                                    <Slider {...settings}>
+                                    <SliderLayout>
                                         <Image
                                         loading="lazy"
                                         decoding="async"
@@ -315,7 +303,7 @@ export default function ListCampaign() {
                                         height={200}
                                         width={400}
                                         />
-                                    </Slider>
+                                    </SliderLayout>
                                 </div>
                                 <div className="pt-4">
                                     <p className="mb-3">12 Mar, 2023</p>

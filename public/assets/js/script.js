@@ -39,6 +39,8 @@
 //     tabPane.addClass("active");
 //   });
 
+
+
 //   // accordion-collapse
 //   $(".accordion-collapse").on("show.bs.collapse", function () {
 //     $(this).siblings(".accordion-header").addClass("active");
@@ -123,17 +125,17 @@
 // })(jQuery);
 
 // checkbox for pay
-function isCheckedPay(chk,sub1) {
-  var myLayer = document.getElementById(sub1);
-  if (chk.checked == true) {
-    myLayer.disabled = false;
-    myLayer.className = "btn btn-primary"
-    } else {
-      myLayer.disabled = true;
+// function isCheckedPay(chk,sub1) {
+//   var myLayer = document.getElementById(sub1);
+//   if (chk.checked == true) {
+//     myLayer.disabled = false;
+//     myLayer.className = "btn btn-primary"
+//     } else {
+//       myLayer.disabled = true;
       
       
-  };
-}
+//   };
+// }
 
 // change to rupiah
 function formatRupiah(angka, prefix){
@@ -151,6 +153,12 @@ function formatRupiah(angka, prefix){
 
   rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
   return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+}
+// Fungsi untuk mengupdate harga
+function updatePriceFromPay() {
+  var input = document.getElementById('price_pay_umkm').value;
+  var formattedPrice = formatRupiah(input, 'Rp. ');
+  document.querySelector('.price_from_pay').innerText = formattedPrice;
 }
 
 // getvaleu from input
