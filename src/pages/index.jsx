@@ -49,7 +49,6 @@ export default function Home() {
                   className="w-100"
                   height={500}
                   width={500}
-                  layout="responsive"
                 />
               </div>
             </div>
@@ -252,7 +251,6 @@ export default function Home() {
                 className="img-fluid"
                 height={500}
                 width={500}
-                layout="responsive"
               />
             </div>
           </div>
