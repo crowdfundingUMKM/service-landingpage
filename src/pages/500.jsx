@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image'; // Jika Anda ingin menggunakan gambar
+import ErrorLayout from '@/pages/error/ErrorLayout'
 
 function Custom500() {
   return (
