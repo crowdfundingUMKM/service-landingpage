@@ -5,6 +5,7 @@ export default function MidtransTermsLayout({ children }) {
       <>
         <Head>
             <title>Ketentuan Midtrans - Crowdfunding UMKM</title>
+            <meta name="description" content="Ketentuan Midtrans"/>
         </Head>
         {children}
       </>

@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
           <Head>
             <meta charSet="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
-            <meta name="description" content="CRWD description"/>
+            <meta name="keywords" content="crowdfunding, UMKM, Indonesia, crowdfunding UMKM, crowdfunding Indonesia, crowdfunding UMKM Indonesia, crowdfunding UMKM"/>
             <meta name="theme-name" content="CrowdfundingUMKM" />
             </Head>
             {/* Komponent Start */}

@@ -5,6 +5,8 @@ export default function ContactAdminLayout({ children }) {
       <>
         <Head>
             <title>Kontak Admin - Crowdfunding UMKM</title>
+            <meta name="description" content="Hubungi kami jika anda butuh bantuan!"/>
+
         </Head>
         {children}
       </>

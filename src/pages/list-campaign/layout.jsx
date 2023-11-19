@@ -5,6 +5,7 @@ export default function ListCampaignLayout({ children }) {
       <>
         <Head>
             <title>List UMKM - Crowdfunding UMKM</title>
+            <meta name="description" content="List UMKM, Daftar UMKM Crowdfunding yang sedang dibuka."/>
         </Head>
         {children}
       </>

@@ -5,6 +5,8 @@ export default function ServiceLayout({ children }) {
       <>
         <Head>
             <title>Service UMKM - Crowdfunding UMKM</title>
+            <meta name="description" content="Pilihan apa saja yang bisa anda lakukan pada platform kami!"/>
+
         </Head>
         {children}
       </>

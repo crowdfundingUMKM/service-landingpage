@@ -5,6 +5,7 @@ export default function HomeLayout({ children }) {
       <>
         <Head>
             <title>CrowdFunding UMKM</title>
+            <meta name="description" content="Platform crowdfunding yang berfokus pada dukungan terhadap Usaha Mikro, Kecil, dan Menengah (UMKM) di Indonesia."/>
         </Head>
         {children}
       </>

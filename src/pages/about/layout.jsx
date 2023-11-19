@@ -5,6 +5,7 @@ export default function AboutLayout({ children }) {
       <>
         <Head>
             <title>Tentang Kami - Crowdfunding UMKM</title>
+            <meta name="description" content="Tentang informasi platform kami."/>
         </Head>
         {children}
       </>

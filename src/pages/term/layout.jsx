@@ -5,6 +5,7 @@ export default function TermsLayout({ children }) {
       <>
         <Head>
             <title>Syarat & Ketentuan - Crowdfunding UMKM</title>
+            <meta name="description" content="Syarat & Ketentuan, Crowdfunding UMKM Terms"/>
         </Head>
         {children}
       </>

@@ -16,4 +16,9 @@ function Custom500() {
   );
 }
 
+
+// Tentukan layout khusus untuk halaman ini
+Custom500.layout = ErrorLayout;
+
+
 export default Custom500;
