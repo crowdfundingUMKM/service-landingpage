@@ -177,7 +177,7 @@ export default function ListCampaign() {
                                         <h2 className="h4">
                                         <Link
                                             className="text-black shorten-text-card"
-                                            href="/campaign-details"
+                                            href="/list-campaign/campaign-detail/1"
                                         >
                                             Pertanian Organik.
                                         </Link>
@@ -188,7 +188,7 @@ export default function ListCampaign() {
                                         </p>
                                         <div className="d-grid gap-2 mx-auto">
                                         {/* target to id donate */}
-                                        <Link href="campaign-details#donate">
+                                        <Link href="/list-campaign/campaign-detail/1">
                                             <button className="btn btn-primary w-100" type="button">
                                             Donate
                                             </button>
@@ -254,7 +254,7 @@ export default function ListCampaign() {
                                     <h2 className="h4">
                                     <Link
                                         className="text-black shorten-text-card"
-                                        href="/campaign-details"
+                                        href="/list-campaign/campaign-detail/1"
                                     >
                                         Pusat Pelatihan Kerajinan Tangan.
                                     </Link>
@@ -264,9 +264,11 @@ export default function ListCampaign() {
                                     membantu generasi muda mempelajari keterampilan baru.
                                     </p>
                                     <div className="d-grid gap-2 mx-auto">
-                                    <button className="btn btn-primary w-100" type="button">
-                                        Donate
-                                    </button>
+                                    <Link href="/list-campaign/campaign-detail/1">
+                                        <button className="btn btn-primary w-100" type="button">
+                                            Donate
+                                        </button>
+                                    </Link>
                                     </div>
                                 </div>
                                 </article>
@@ -327,7 +329,7 @@ export default function ListCampaign() {
                                     <h2 className="h4">
                                     <Link
                                         className="text-black shorten-text-card"
-                                        href="/campaign-details"
+                                        href="/list-campaign/campaign-detail/1"
                                     >
                                         Pendanaan untuk Ekspansi Bisnis UMKM.
                                     </Link>
@@ -339,9 +341,11 @@ export default function ListCampaign() {
                                     kami yang inovatif dan berkelanjutan.
                                     </p>
                                     <div className="d-grid gap-2 mx-auto">
-                                    <button className="btn btn-primary w-100" type="button">
-                                        Donate
-                                    </button>
+                                    <Link href="/list-campaign/campaign-detail/1">
+                                        <button className="btn btn-primary w-100" type="button">
+                                            Donate
+                                        </button>
+                                    </Link>
                                     </div>
                                 </div>
                                 </article>
@@ -359,7 +363,7 @@ export default function ListCampaign() {
                             {/* post-item */}
                             <ul className="list-unstyled widget-list">
                             <li className="d-flex widget-post align-items-center">
-                                <Link className="text-black" href="/campaign-detail">
+                                <Link className="text-black" href="/campaign-detail/1">
                                 <div className="widget-post-image flex-shrink-0 me-3">
                                     <Image
                                     className="rounded"
@@ -374,7 +378,7 @@ export default function ListCampaign() {
                                 </Link>
                                 <div className="flex-grow-1">
                                 <h5 className="h6 mb-0">
-                                    <Link className="text-black" href="/campaign-detail">
+                                    <Link className="text-black" href="/list-campaign/campaign-detail/1">
                                     Pertanian Organik
                                     </Link>
                                 </h5>
@@ -384,7 +388,7 @@ export default function ListCampaign() {
                             </ul>
                             <ul className="list-unstyled widget-list">
                             <li className="d-flex widget-post align-items-center">
-                                <Link className="text-black" href="/campaign-detail">
+                                <Link className="text-black" href="/campaign-detail/1">
                                 <div className="widget-post-image flex-shrink-0 me-3">
                                     <Image
                                     className="rounded"
@@ -399,7 +403,7 @@ export default function ListCampaign() {
                                 </Link>
                                 <div className="flex-grow-1">
                                 <h5 className="h6 mb-0">
-                                    <Link className="text-black" href="/campaign-detail">
+                                    <Link className="text-black" href="/list-campaign/campaign-detail/1">
                                     Pusat Pelatihan Kerajinan Tangan
                                     </Link>
                                 </h5>
@@ -409,7 +413,7 @@ export default function ListCampaign() {
                             </ul>
                             <ul className="list-unstyled widget-list">
                             <li className="d-flex widget-post align-items-center">
-                                <Link className="text-black" href="/campaign-detail">
+                                <Link className="text-black" href="/list-campaign/campaign-detail/1">
                                 <div className="widget-post-image flex-shrink-0 me-3">
                                     <Image
                                     className="rounded"
@@ -424,7 +428,7 @@ export default function ListCampaign() {
                                 </Link>
                                 <div className="flex-grow-1">
                                 <h5 className="h6 mb-0">
-                                    <Link className="text-black" href="/campaign-detail">
+                                    <Link className="text-black" href="/list-campaign/campaign-detail/1">
                                     Pendanaan untuk Ekspansi Bisnis UMKM
                                     </Link>
                                 </h5>
