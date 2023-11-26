@@ -35,7 +35,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-Link to the project:
+Link to the project Main Website: 
 [![Deploy with Vercel](https://vercel.com/button)](https://crowdfunding-umkm.vercel.app/)
 
 
