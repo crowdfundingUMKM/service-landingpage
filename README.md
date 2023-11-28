@@ -50,3 +50,4 @@ docker-compose down
 ```
 
 # Publish (push) to production
+Use GCP Cloud Build to build and push to GCR
