@@ -48,3 +48,5 @@ docker-compose up --build
 ```bash
 docker-compose down
 ```
+
+# Publish (push) to production
