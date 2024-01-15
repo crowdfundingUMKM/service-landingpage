@@ -156,7 +156,7 @@ export default function CampaignDetails({}) {
                                                 <Image
                                                 loading="lazy"
                                                 decoding="async"
-                                                src="/assets/images/blog/post-4.jpg"
+                                                src="/assets/images/Avatar/Avatar3.png"
                                                 alt="Post Thumbnail"
                                                 width={1000}
                                                 height={300}
@@ -176,7 +176,7 @@ export default function CampaignDetails({}) {
                                         </p>
                                     </div>
                                     <div className="link-penerbit">
-                                    <Link className="btn btn-primary m-2" href="https://localhost:1212/data" role="button">
+                                    <Link className="btn btn-primary m-2" href="#" role="button">
                                         Link
                                     </Link>
                                     </div>
