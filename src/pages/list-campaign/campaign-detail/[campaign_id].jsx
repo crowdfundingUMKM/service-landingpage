@@ -50,10 +50,10 @@ export default function CampaignDetails({}) {
                             Detail UMKM
                             </h2>
                             <span>
-                            15 March 2020 <span className="mx-2">/</span>{" "}
+                            15 March 2023 <span className="mx-2">/</span>{" "}
                             </span>
                             <p className="list-inline-item">
-                            Category : Pertanian
+                            Category : Seni dan Kerajinan
                             </p>
                         </div>
                         <div className="mb-5 text-center">
@@ -62,7 +62,7 @@ export default function CampaignDetails({}) {
                             <Image
                                 loading="lazy"
                                 decoding="async"
-                                src="/assets/images/blog/post-4.jpg"
+                                src="/assets/images/campaign/1/banner1.jpeg"
                                 alt="Post Thumbnail"
                                 width={1000}
                                 height={300}
@@ -70,15 +70,7 @@ export default function CampaignDetails({}) {
                             <Image
                                 loading="lazy"
                                 decoding="async"
-                                src="/assets/images/blog/post-5.jpg"
-                                alt="Post Thumbnail"
-                                width={1000}
-                                height={300}
-                            />
-                            <Image
-                                loading="lazy"
-                                decoding="async"
-                                src="/assets/images/blog/post-3.jpg"
+                                src="/assets/images/campaign/1/banner2.jpeg"
                                 alt="Post Thumbnail"
                                 width={1000}
                                 height={300}
@@ -91,30 +83,29 @@ export default function CampaignDetails({}) {
                             <div
                             className="progress-bar progress-bar-striped progress-bar-animated bg-success"
                             role="progressbar"
-                            aria-valuenow={75}
+                            aria-valuenow={30}
                             aria-valuemin={0}
                             aria-valuemax={100}
-                            style={{ width: "75%" }}
+                            style={{ width: "30%" }}
                             >
-                            %75
+                            %30
                             </div>
                         </div>
                         <div className="row d-flex justify-content-between pt-2">
                             <div className="col-7">
-                            <h4>Rp.16.000.000 dari Rp.700.000</h4>
+                            <h4>Rp.16.000.000 dari Rp.4.800.000</h4>
                             </div>
                             <div className="col-3 col-lg-1">
-                            <h4>%75</h4>
+                            <h4>%30</h4>
                             </div>
                         </div>
                         <div className="row">
                             {/* About campaign */}
                             <div className="col-7 col-md-6 order-1 order-md-0">
                             <div className="content">
-                                <h2 id="title_campaign">Pertanian Organik {router.query.campaign_id}</h2>
+                                <h2 id="title_campaign">Kreatif Ceria Crafts</h2>
                                 <p id="description">
-                                Dukunglah usaha pertanian organik kami untuk memberikan
-                                makanan sehat dan berkualitas kepada masyarakat.
+                                "Kreatif Ceria Crafts" adalah UMKM yang berfokus pada produksi kerajinan tangan unik dan kreatif. Kami menggabungkan keahlian tradisional dengan desain modern untuk menciptakan produk-produk yang memukau. Bisnis ini bertujuan untuk melestarikan seni dan kerajinan lokal sambil memberikan peluang ekonomi kepada para pengrajin lokal.
                                 </p>
                                 <hr />
                                 {/* Informasi */}
@@ -146,10 +137,9 @@ export default function CampaignDetails({}) {
                                         <strong>Benefit</strong>
                                     </p>
                                     <ul className="text-black">
-                                        <li>Ini benefit yang didaptkan</li>
-                                        <li>Ini benefit yang didaptkan</li>
-                                        <li>Ini benefit yang didaptkan</li>
-                                        <li>Ini benefit yang didaptkan</li>
+                                        <li>Keuntungan Finansial</li>
+                                        <li>Diskon Produk</li>
+                                        <li>Sertifikat Kontributor</li>
                                     </ul>
                                     </div>
                                     {/* End Benefit tab */}
@@ -173,7 +163,7 @@ export default function CampaignDetails({}) {
                                                 />
                                             </div>
                                             <div className="col">
-                                                <h3>Pak agus</h3>
+                                                <h3>Sarah Nurul Hidayah</h3>
                                             </div>
                                             </div>
                                         </div>
@@ -182,10 +172,7 @@ export default function CampaignDetails({}) {
                                     <div className="describe_publisher">
                                         <strong>Deskripsi Penerbit</strong>
                                         <p className="text-black">
-                                        Ini data tentang penerbit UMKM yang membuka UMKMIni
-                                        data tentang penerbit UMKM yang membuka UMKMIni data
-                                        tentang penerbit UMKM yang membuka UMKMIni data
-                                        tentang penerbit UMKM yang membuka UMKM
+                                        Sarah Nurul Hidayah adalah seorang pengusaha muda yang berkomitmen untuk mendukung perkembangan UMKM lokal. Dengan latar belakang di bidang seni dan desain, Sarah mendirikan "Kreatif Ceria Crafts" dengan visi untuk menciptakan peluang bagi pengrajin lokal dan memperkenalkan keindahan seni kerajinan tangan kepada masyarakat lebih luas. Dengan pengalaman dan semangat kewirausahaan, Sarah berharap dapat membawa UMKM ini mencapai puncak kesuksesan melalui dukungan para investor.
                                         </p>
                                     </div>
                                     <div className="link-penerbit">
@@ -206,11 +193,10 @@ export default function CampaignDetails({}) {
                                 <div className="tab-content">
                                     <div className="tab-pane" title="Reviewer 1">
                                         <p id="name_reviewer">
-                                            <strong>Nama Reviewer</strong>
+                                            <strong>Amanda Setiawan</strong>
                                         </p>
                                         <p id="describe_review">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Fuga voluptatibus dignissimos quam laudantium ex.
+                                        Saya sangat terkesan dengan kampanye "Kreatif Ceria Crafts". Mereka berhasil menyajikan bisnisnya dengan cara yang jelas dan menggugah minat saya sebagai calon investor. Deskripsi bisnis yang sedang dibangun terlihat sangat menarik, terutama fokus pada penggabungan keahlian tradisional dengan desain modern dalam produksi kerajinan tangan.
                                         </p>
                                         <div id="rating_review" className="row">
                                             <p>Review UMKM: ⭐⭐⭐⭐4/5 </p>
@@ -221,11 +207,10 @@ export default function CampaignDetails({}) {
                                     </div>
                                     <div className="tab-pane" title="Reviewer 2">
                                     <p id="name_reviewer">
-                                        <strong>Nama Reviewer 2</strong>
+                                        <strong>Budi Prasetyo</strong>
                                     </p>
                                     <p id="describe_review">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Fuga voluptatibus dignissimos quam laudantium ex.
+                                    Kampanye "Kreatif Ceria Crafts" sangat menginspirasi. Mereka berhasil menarik perhatian saya dengan konsep bisnis yang unik dan berfokus pada pengembangan seni dan kerajinan lokal. Deskripsi bisnis yang mereka sampaikan sangat informatif dan membantu saya memahami visi mereka.
                                     </p>
                                     <div id="rating_review" className="row">
                                         <p>Review UMKM: ⭐⭐⭐⭐⭐5/5 </p>
@@ -236,11 +221,10 @@ export default function CampaignDetails({}) {
                                     </div>
                                     <div className="tab-pane" title="Reviewer 3">
                                     <p id="name_reviewer">
-                                        <strong>Nama Reviewer 3</strong>
+                                        <strong>Putri Rahayu</strong>
                                     </p>
                                     <p id="describe_review">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Fuga voluptatibus dignissimos quam laudantium ex.
+                                    Kampanye "Kreatif Ceria Crafts" menarik perhatian saya sejak awal. Mereka berhasil menyampaikan visi dan misi bisnis dengan cara yang sangat menyentuh hati. Konsep produk yang unik dan keberpihakan terhadap pengrajin lokal adalah poin yang membuat saya tertarik untuk berinvestasi.
                                     </p>
                                     <div id="rating_review" className="row">
                                         <p>Review UMKM: ⭐⭐⭐3/5 </p>
@@ -259,24 +243,7 @@ export default function CampaignDetails({}) {
                                 <li>
                                     <p>
                                     <a href="https://www.google.com">
-                                        I’m an inline-style link
-                                    </a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                    <a
-                                        href="https://www.google.com"
-                                        title="Google's Homepage"
-                                    >
-                                        I’m an inline-style link with title
-                                    </a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                    <a href="https://www.themefisher.com">
-                                        I’m a reference-style link
+                                        Link
                                     </a>
                                     </p>
                                 </li>
@@ -288,7 +255,7 @@ export default function CampaignDetails({}) {
                                     loading="lazy"
                                     decoding="async"
                                     className="w-100 d-block mb-4 rounded-3"
-                                    src="/assets/images/blog/post-4.jpg"
+                                    src="/assets/images/campaign/1/banner1.jpeg"
                                     alt="placeholder image"
                                     width={1000}
                                     height={300}
@@ -297,16 +264,7 @@ export default function CampaignDetails({}) {
                                     loading="lazy"
                                     decoding="async"
                                     className="w-100 d-block mb-4 rounded-3"
-                                    src="/assets/images/blog/post-3.jpg"
-                                    alt="placeholder image"
-                                    width={1000}
-                                    height={300}
-                                />
-                                <Image
-                                    loading="lazy"
-                                    decoding="async"
-                                    className="w-100 d-block mb-4 rounded-3"
-                                    src="/assets/images/blog/post-1.jpg"
+                                    src="/assets/images/campaign/1/banner2.jpeg"
                                     alt="placeholder image"
                                     width={1000}
                                     height={300}

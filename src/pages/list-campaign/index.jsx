@@ -129,7 +129,7 @@ export default function ListCampaign() {
                                         <Image
                                         loading="lazy"
                                         decoding="async"
-                                        src="/assets/images/blog/post-4.jpg"
+                                        src="/assets/images/campaign/1/banner1.jpeg"
                                         alt="Image 1"
                                         className="img-fluid rounded carousel-item active"
                                         height={200}
@@ -139,24 +139,15 @@ export default function ListCampaign() {
                                         loading="lazy"
                                         decoding="async"
                                         className="img-fluid rounded carousel-item active"
-                                        src="/assets/images/blog/post-5.jpg"
+                                        src="/assets/images/campaign/1/banner2.jpeg"
                                         alt="Image 2"
-                                        height={200}
-                                        width={400}
-                                        />
-                                        <Image
-                                        loading="lazy"
-                                        decoding="async"
-                                        className="img-fluid rounded carousel-item active"
-                                        src="/assets/images/blog/post-3.jpg"
-                                        alt="Image 3"
                                         height={200}
                                         width={400}
                                         />
                                     </SliderLayout>
                                     </div>
                                     <div className="pt-4">
-                                        <p className="mb-3">15 Mar, 2020</p>
+                                        <p className="mb-3">15 Mar, 2023</p>
                                         {/*  bar loan*/}
                                         <div className="progress mb-2">
                                         <div
@@ -165,13 +156,13 @@ export default function ListCampaign() {
                                             aria-valuenow={100}
                                             aria-valuemin={0}
                                             aria-valuemax={100}
-                                            style={{ width: "10%" }}
+                                            style={{ width: "30%" }}
                                         >
-                                            10%
+                                            30%
                                         </div>
                                         </div>
                                         <div className="row d-flex justify-content-between pb-2">
-                                        <div className="col-2">Rp.600000</div>
+                                        <div className="col-2">Rp.4.800.000</div>
                                         <div className="col-2">%30</div>
                                         </div>
                                         <h2 className="h4">
@@ -179,12 +170,11 @@ export default function ListCampaign() {
                                             className="text-black shorten-text-card"
                                             href="/list-campaign/campaign-detail/1"
                                         >
-                                            Pertanian Organik.
+                                            Kreatif Ceria Crafts
                                         </Link>
                                         </h2>
                                         <p className="shorten-text-card">
-                                        Dukunglah usaha pertanian organik kami untuk memberikan
-                                        makanan sehat dan berkualitas kepada masyarakat.
+                                        "Kreatif Ceria Crafts" adalah UMKM yang berfokus pada produksi kerajinan tangan unik dan kreatif. 
                                         </p>
                                         <div className="d-grid gap-2 mx-auto">
                                         {/* target to id donate */}
@@ -205,7 +195,7 @@ export default function ListCampaign() {
                                         <Image
                                         loading="lazy"
                                         decoding="async"
-                                        src="/assets/images/blog/post-1.jpg"
+                                        src="/assets/images/campaign/2/banner1.jpeg"
                                         alt="Image 1"
                                         className="img-fluid rounded carousel-item active"
                                         height={200}
@@ -215,17 +205,8 @@ export default function ListCampaign() {
                                         loading="lazy"
                                         decoding="async"
                                         className="img-fluid rounded carousel-item active"
-                                        src="/assets/images/blog/post-2.jpg"
+                                        src="/assets/images/campaign/2/banner2.jpeg"
                                         alt="Image 2"
-                                        height={200}
-                                        width={400}
-                                        />
-                                        <Image
-                                        loading="lazy"
-                                        decoding="async"
-                                        className="img-fluid rounded carousel-item active"
-                                        src="/assets/images/blog/post-3.jpg"
-                                        alt="Image 3"
                                         height={200}
                                         width={400}
                                         />
@@ -256,12 +237,11 @@ export default function ListCampaign() {
                                         className="text-black shorten-text-card"
                                         href="/list-campaign/campaign-detail/1"
                                     >
-                                        Pusat Pelatihan Kerajinan Tangan.
+                                        Bumi Subur Agro.
                                     </Link>
                                     </h2>
                                     <p className="shorten-text-card">
-                                    Kami ingin membuka pusat pelatihan kerajinan tangan untuk
-                                    membantu generasi muda mempelajari keterampilan baru.
+                                    "Bumi Subur Agro" adalah UMKM yang berfokus pada pengembangan pertanian organik. Kami berkomitmen untuk menyediakan produk-produk pertanian berkualitas tinggi tanpa menggunakan bahan kimia berbahaya.
                                     </p>
                                     <div className="d-grid gap-2 mx-auto">
                                     <Link href="/list-campaign/campaign-detail/1">
@@ -273,84 +253,6 @@ export default function ListCampaign() {
                                 </div>
                                 </article>
                             </div>
-                            {/* Artikel 3 */}
-                            <div className="article  col-md-6" data-aos="fade">
-                                <article className="blog-post ">
-                                <div className="post-slider slider-sm rounded">
-                                    <SliderLayout>
-                                        <Image
-                                        loading="lazy"
-                                        decoding="async"
-                                        src="/assets/images/blog/post-1.jpg"
-                                        alt="Image 1"
-                                        className="img-fluid rounded carousel-item active"
-                                        height={200}
-                                        width={400}
-                                        />
-                                        <Image
-                                        loading="lazy"
-                                        decoding="async"
-                                        className="img-fluid rounded carousel-item active"
-                                        src="/assets/images/blog/post-2.jpg"
-                                        alt="Image 2"
-                                        height={200}
-                                        width={400}
-                                        />
-                                        <Image
-                                        loading="lazy"
-                                        decoding="async"
-                                        className="img-fluid rounded carousel-item active"
-                                        src="/assets/images/blog/post-3.jpg"
-                                        alt="Image 3"
-                                        height={200}
-                                        width={400}
-                                        />
-                                    </SliderLayout>
-                                </div>
-                                <div className="pt-4">
-                                    <p className="mb-3">12 Mar, 2023</p>
-                                    {/*  bar loan*/}
-                                    <div className="progress mb-2">
-                                    <div
-                                        className="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                        role="progressbar"
-                                        aria-valuenow={75}
-                                        aria-valuemin={0}
-                                        aria-valuemax={100}
-                                        style={{ width: "75%" }}
-                                    >
-                                        75%
-                                    </div>
-                                    </div>
-                                    <div className="row d-flex justify-content-between pb-2">
-                                    <div className="col-2">Rp.600000</div>
-                                    <div className="col-2">%30</div>
-                                    </div>
-                                    <h2 className="h4">
-                                    <Link
-                                        className="text-black shorten-text-card"
-                                        href="/list-campaign/campaign-detail/1"
-                                    >
-                                        Pendanaan untuk Ekspansi Bisnis UMKM.
-                                    </Link>
-                                    </h2>
-                                    <p className="shorten-text-card">
-                                    UMKM kami, Karya Makmur, sedang berkembang pesat dan
-                                    membutuhkan dana untuk ekspansi lebih lanjut. Dukung kami
-                                    dalam meraih kesuksesan dengan berinvestasi pada bisnis
-                                    kami yang inovatif dan berkelanjutan.
-                                    </p>
-                                    <div className="d-grid gap-2 mx-auto">
-                                    <Link href="/list-campaign/campaign-detail/1">
-                                        <button className="btn btn-primary w-100" type="button">
-                                            Donate
-                                        </button>
-                                    </Link>
-                                    </div>
-                                </div>
-                                </article>
-                            </div>
-
                             </div>
                         </div>
                         </div>
@@ -369,7 +271,7 @@ export default function ListCampaign() {
                                     className="rounded"
                                     loading="lazy"
                                     decoding="async"
-                                    src="/assets/images/blog/post-4.jpg"
+                                    src="/assets/images/campaign/1/banner2.jpeg"
                                     alt="Post Thumbnail"
                                     height={50}
                                     width={50}
@@ -379,7 +281,7 @@ export default function ListCampaign() {
                                 <div className="flex-grow-1">
                                 <h5 className="h6 mb-0">
                                     <Link className="text-black" href="/list-campaign/campaign-detail/1">
-                                    Pertanian Organik
+                                    Kreatif Ceria Crafts
                                     </Link>
                                 </h5>
                                 <small>Maret 15, 2023</small>
@@ -394,7 +296,7 @@ export default function ListCampaign() {
                                     className="rounded"
                                     loading="lazy"
                                     decoding="async"
-                                    src="/assets/images/blog/post-1.jpg"
+                                    src="/assets/images/campaign/2/banner1.jpeg"
                                     alt="Post Thumbnail"
                                     height={50}
                                     width={50}
@@ -404,38 +306,14 @@ export default function ListCampaign() {
                                 <div className="flex-grow-1">
                                 <h5 className="h6 mb-0">
                                     <Link className="text-black" href="/list-campaign/campaign-detail/1">
-                                    Pusat Pelatihan Kerajinan Tangan
+                                    Bumi Subur Agro
                                     </Link>
                                 </h5>
                                 <small>Maret 14, 2023</small>
                                 </div>
                             </li>
                             </ul>
-                            <ul className="list-unstyled widget-list">
-                            <li className="d-flex widget-post align-items-center">
-                                <Link className="text-black" href="/list-campaign/campaign-detail/1">
-                                <div className="widget-post-image flex-shrink-0 me-3">
-                                    <Image
-                                    className="rounded"
-                                    loading="lazy"
-                                    decoding="async"
-                                    src="/assets/images/blog/post-2.jpg"
-                                    alt="Post Thumbnail"
-                                    height={50}
-                                    width={50}
-                                    />
-                                </div>
-                                </Link>
-                                <div className="flex-grow-1">
-                                <h5 className="h6 mb-0">
-                                    <Link className="text-black" href="/list-campaign/campaign-detail/1">
-                                    Pendanaan untuk Ekspansi Bisnis UMKM
-                                    </Link>
-                                </h5>
-                                <small>Maret 14, 2023</small>
-                                </div>
-                            </li>
-                            </ul>
+                           
                         </div>
                         {/* End latest post */}
                         </div>
