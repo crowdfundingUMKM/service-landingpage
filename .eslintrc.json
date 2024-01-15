@@ -2,6 +2,8 @@
   "extends": "next/core-web-vitals",
   "rules": {
     "@next/next/no-css-tags": "off",
-    "jsx-a11y/role-supports-aria-props": "off"
+    "jsx-a11y/role-supports-aria-props": "off",
+    // no-unescaped-entities: "off"
+    "react/no-unescaped-entities": "off"
   } 
 }

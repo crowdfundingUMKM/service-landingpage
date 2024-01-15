@@ -230,7 +230,7 @@ export default function ListCampaign() {
                                     </div>
                                     <div className="row d-flex justify-content-between pb-2">
                                     <div className="col-2">Rp.600000</div>
-                                    <div className="col-2">%30</div>
+                                    <div className="col-2">%75</div>
                                     </div>
                                     <h2 className="h4">
                                     <Link
